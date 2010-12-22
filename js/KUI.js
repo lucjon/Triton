@@ -258,7 +258,7 @@ window.Triton.KUI = (function(editor){
 
                 "left" : function(){
                     $("#logo").click();
-                }
+                },
             };
 
             // Menu Nav
@@ -351,9 +351,6 @@ window.Triton.KUI = (function(editor){
                     $('.page_dialog').hide('slow', function() {
                             $('.page_dialog').remove();
                     });
-            }
-            else if (ev.which == 223) { // `
-                    editor.createAlert('Test alert.', 'high', 5000);
             }
         });
 
